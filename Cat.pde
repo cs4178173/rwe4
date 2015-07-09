@@ -1,5 +1,5 @@
 int w=0,e=0;
-int[]a = { 2,5,7,6,8,9,4,3};
+int[]a = { 32,45,37,26,8,9,27,3,13,28,22,41,18,23,20,14,16,48,19,39};
 int temp;
 void setup()
 {
@@ -9,9 +9,9 @@ void setup()
 void draw()
 {
   
-if(e<8)
+if(e<20)
  {
-    if(w>6)
+    if(w>18)
  {
    w=0;
    e++;
@@ -29,7 +29,7 @@ if(e<8)
   }
     w++;
     background(0,0,0);
-    for (int k = 0; k <8 ; k++){
+    for (int k = 0; k <20 ; k++){
      rect(0,20*k,10*a[k],20);
     }
 
